@@ -16,5 +16,5 @@ function solution(s){
         yIdx = s.indexOf('y', yIdx+1)
     }
     
-    return p === y ? true : false
+    return p === y
 }
